@@ -33,7 +33,8 @@ test("Log out test", async ({ page }) => {
   await sampleAppPage.navigateToSampleApp();
   await sampleAppPage.fillUserNameField("Gojo");
   await sampleAppPage.fillPasswordField("pwd");
-  await sampleAppPage.expectLoginTextToBe("Welcome, Gojo!");
   await sampleAppPage.clickLoginButton();
+  await sampleAppPage.expectLoginTextToBe("Welcome, Gojo!");
+  await sampleAppPage.clickLogoutButton();
   await sampleAppPage.expectLoginTextToBe("User logged out.");
 });

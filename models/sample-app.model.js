@@ -23,10 +23,10 @@ exports.SampleAppPage = class SampleAppPage {
   }
 
   async clickLoginButton() {
-    await this.logoutButton.click();
+    await this.loginButton.click();
   }
 
-  async clickLoginButton() {
+  async clickLogoutButton() {
     await this.logoutButton.click();
   }
 
