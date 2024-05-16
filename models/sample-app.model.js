@@ -3,6 +3,7 @@ const { expect } = require("@playwright/test");
 exports.SampleAppPage = class SampleAppPage {
   constructor(page) {
     this.page = page;
+    this.sampleAppUr = page.goto("/sampleapp");
     this.userNameField = page.getByPlaceholder("User Name");
     this.passwordField = page.getByPlaceholder("********");
     this.loginButton = page.getByRole("button", { name: "Log In" });
@@ -11,7 +12,7 @@ exports.SampleAppPage = class SampleAppPage {
   }
 
   async navigateToSampleApp() {
-    await this.page.goto("http://uitestingplayground.com/sampleapp");
+    await this.sampleAppUr;
   }
 
   async fillUserNameField(username) {

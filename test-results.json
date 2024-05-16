@@ -1,0 +1,292 @@
+{
+  "config": {
+    "configFile": "/Users/minhvo/Documents/ui-testing-playground/playwright.config.js",
+    "rootDir": "/Users/minhvo/Documents/ui-testing-playground/tests",
+    "forbidOnly": false,
+    "fullyParallel": true,
+    "globalSetup": null,
+    "globalTeardown": null,
+    "globalTimeout": 0,
+    "grep": {},
+    "grepInvert": null,
+    "maxFailures": 0,
+    "metadata": {
+      "actualWorkers": 5
+    },
+    "preserveOutput": "always",
+    "reporter": [
+      [
+        "list",
+        null
+      ],
+      [
+        "json",
+        {
+          "outputFile": "test-results.json"
+        }
+      ]
+    ],
+    "reportSlowTests": {
+      "max": 5,
+      "threshold": 15000
+    },
+    "quiet": false,
+    "projects": [
+      {
+        "outputDir": "/Users/minhvo/Documents/ui-testing-playground/test-results",
+        "repeatEach": 1,
+        "retries": 0,
+        "metadata": {},
+        "id": "chromium",
+        "name": "chromium",
+        "testDir": "/Users/minhvo/Documents/ui-testing-playground/tests",
+        "testIgnore": [],
+        "testMatch": [
+          "**/*.@(spec|test).?(c|m)[jt]s?(x)"
+        ],
+        "timeout": 30000
+      }
+    ],
+    "shard": null,
+    "updateSnapshots": "missing",
+    "version": "1.44.0",
+    "workers": 5,
+    "webServer": null
+  },
+  "suites": [
+    {
+      "title": "home-page.spec.js",
+      "file": "home-page.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "Navigate to Home Page",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 0,
+                  "status": "passed",
+                  "duration": 2144,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-05-15T13:24:43.864Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "93194e3e21438f116484-d21bf7bfbb9b3ef9d817",
+          "file": "home-page.spec.js",
+          "line": 4,
+          "column": 1
+        }
+      ]
+    },
+    {
+      "title": "sample-app.spec.js",
+      "file": "sample-app.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [],
+      "suites": [
+        {
+          "title": "suite",
+          "file": "sample-app.spec.js",
+          "line": 5,
+          "column": 15,
+          "specs": [
+            {
+              "title": "log in success",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 1,
+                      "status": "passed",
+                      "duration": 1598,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-15T13:24:43.870Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "467c2a8ecb1661b8573b-0654cbaeb5f480e36fe7",
+              "file": "sample-app.spec.js",
+              "line": 6,
+              "column": 3
+            },
+            {
+              "title": "Wrong password test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 2,
+                      "status": "passed",
+                      "duration": 1765,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-15T13:24:43.862Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "467c2a8ecb1661b8573b-4aad42896213ff604685",
+              "file": "sample-app.spec.js",
+              "line": 14,
+              "column": 3
+            },
+            {
+              "title": "No user name test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 3,
+                      "status": "passed",
+                      "duration": 1601,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-15T13:24:43.856Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "467c2a8ecb1661b8573b-735cea39db792aef498c",
+              "file": "sample-app.spec.js",
+              "line": 23,
+              "column": 3
+            },
+            {
+              "title": "Log out test",
+              "ok": true,
+              "tags": [],
+              "tests": [
+                {
+                  "timeout": 30000,
+                  "annotations": [],
+                  "expectedStatus": "passed",
+                  "projectId": "chromium",
+                  "projectName": "chromium",
+                  "results": [
+                    {
+                      "workerIndex": 4,
+                      "status": "passed",
+                      "duration": 1637,
+                      "errors": [],
+                      "stdout": [],
+                      "stderr": [],
+                      "retry": 0,
+                      "startTime": "2024-05-15T13:24:43.867Z",
+                      "attachments": []
+                    }
+                  ],
+                  "status": "expected"
+                }
+              ],
+              "id": "467c2a8ecb1661b8573b-f617d1de93a366b1552c",
+              "file": "sample-app.spec.js",
+              "line": 32,
+              "column": 3
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "title": "test-input.spec.js",
+      "file": "test-input.spec.js",
+      "column": 0,
+      "line": 0,
+      "specs": [
+        {
+          "title": "test updating button",
+          "ok": true,
+          "tags": [],
+          "tests": [
+            {
+              "timeout": 30000,
+              "annotations": [],
+              "expectedStatus": "passed",
+              "projectId": "chromium",
+              "projectName": "chromium",
+              "results": [
+                {
+                  "workerIndex": 1,
+                  "status": "passed",
+                  "duration": 1433,
+                  "errors": [],
+                  "stdout": [],
+                  "stderr": [],
+                  "retry": 0,
+                  "startTime": "2024-05-15T13:24:46.026Z",
+                  "attachments": []
+                }
+              ],
+              "status": "expected"
+            }
+          ],
+          "id": "3f4199a56f3731dd7360-90fcee00f8edf4d9667c",
+          "file": "test-input.spec.js",
+          "line": 5,
+          "column": 1
+        }
+      ]
+    }
+  ],
+  "errors": [],
+  "stats": {
+    "startTime": "2024-05-15T13:24:43.524Z",
+    "duration": 3964.1929999999998,
+    "expected": 6,
+    "skipped": 0,
+    "unexpected": 0,
+    "flaky": 0
+  }
+}
