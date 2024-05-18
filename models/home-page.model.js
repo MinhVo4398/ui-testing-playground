@@ -3,6 +3,7 @@ exports.HomePage = class HomePage {
     this.page = page;
     this.homePageUrl = page.goto("/");
     this.quote = page.locator(".mb-0");
+    this.linkTags = page.locator("a");
   }
 
   async navigateToHomePage() {
@@ -11,5 +12,9 @@ exports.HomePage = class HomePage {
 
   async getQuote() {
     return await this.quote.innerText();
+  }
+
+  async getAllLinkTags() {
+   return await this.linkTags.evaluateAll((elements) => elements.map((el) => el.innerText))
   }
 };
