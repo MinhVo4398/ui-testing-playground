@@ -55,13 +55,13 @@
   },
   "suites": [
     {
-      "title": "home-page.spec.js",
-      "file": "home-page.spec.js",
+      "title": "dynamic-table.spec.js",
+      "file": "dynamic-table.spec.js",
       "column": 0,
       "line": 0,
       "specs": [
         {
-          "title": "Navigate to Home Page",
+          "title": "Testing Dynamic Table Page",
           "ok": true,
           "tags": [],
           "tests": [
@@ -75,33 +75,33 @@
                 {
                   "workerIndex": 0,
                   "status": "passed",
-                  "duration": 2202,
+                  "duration": 1794,
                   "errors": [],
                   "stdout": [
                     {
-                      "text": "[\n  \u001b[32m'UITAP'\u001b[39m,\n  \u001b[32m'Home'\u001b[39m,\n  \u001b[32m'Resources'\u001b[39m,\n  \u001b[32m\"Rubik's Cube \"\u001b[39m,\n  \u001b[32m'CC 4.0 BY-NC'\u001b[39m,\n  \u001b[32m'Dynamic ID'\u001b[39m,\n  \u001b[32m'Class Attribute'\u001b[39m,\n  \u001b[32m'Hidden Layers'\u001b[39m,\n  \u001b[32m'Load Delay'\u001b[39m,\n  \u001b[32m'AJAX Data'\u001b[39m,\n  \u001b[32m'Client Side Delay'\u001b[39m,\n  \u001b[32m'Click'\u001b[39m,\n  \u001b[32m'Text Input'\u001b[39m,\n  \u001b[32m'Scrollbars'\u001b[39m,\n  \u001b[32m'Dynamic Table'\u001b[39m,\n  \u001b[32m'Verify Text'\u001b[39m,\n  \u001b[32m'Progress Bar'\u001b[39m,\n  \u001b[32m'Visibility'\u001b[39m,\n  \u001b[32m'Sample App'\u001b[39m,\n  \u001b[32m'Mouse Over'\u001b[39m,\n  \u001b[32m'Non-Breaking Space'\u001b[39m,\n  \u001b[32m'Overlapped Element'\u001b[39m,\n  \u001b[32m'Shadow DOM'\u001b[39m,\n  \u001b[32m'Fork the website on GitHub'\u001b[39m,\n  \u001b[32m'Rapise'\u001b[39m,\n  \u001b[32m'Inflectra Corporation'\u001b[39m,\n  \u001b[32m'Apache License 2.0'\u001b[39m\n]\n"
+                      "text": "0.5 MB/s\n"
                     },
                     {
-                      "text": "\u001b[33m27\u001b[39m\n"
+                      "text": "\u001b[33m4\u001b[39m\n"
                     },
                     {
-                      "text": "\u001b[33m11\u001b[39m\n"
+                      "text": "Chrome CPU: 5.6%\n"
                     },
                     {
-                      "text": "Click\n"
+                      "text": "Chrome CPU: 5.6%\n"
                     }
                   ],
                   "stderr": [],
                   "retry": 0,
-                  "startTime": "2024-05-18T02:37:07.024Z",
+                  "startTime": "2024-05-18T14:29:27.911Z",
                   "attachments": []
                 }
               ],
               "status": "expected"
             }
           ],
-          "id": "93194e3e21438f116484-d21bf7bfbb9b3ef9d817",
-          "file": "home-page.spec.js",
+          "id": "ed143e172c3ede4ca204-3b8dffaa2b1ad5f9ae70",
+          "file": "dynamic-table.spec.js",
           "line": 4,
           "column": 1
         }
@@ -110,8 +110,8 @@
   ],
   "errors": [],
   "stats": {
-    "startTime": "2024-05-18T02:37:06.723Z",
-    "duration": 2888.106,
+    "startTime": "2024-05-18T14:29:27.663Z",
+    "duration": 2281.6910000000003,
     "expected": 1,
     "skipped": 0,
     "unexpected": 0,
